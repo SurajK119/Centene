@@ -126,6 +126,7 @@ def save_policy_files_to_s3(centene_medicaid):
     client_name = 'Centene'
     folder_name = 'Medicaid_Policies'
     bucket_name = 'zigna-nsa-payer-data'
+    date = date.today()
 
     extract_pdf_links(centene_medicaid)
 
